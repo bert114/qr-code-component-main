@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+$ff: "Outfit", sans-serif;
+$regular: 400;
+$bold: 700;
+
+:root {
+  font-size: 62.5%;
+}
+
+$clr-bg: hsl(212, 45%, 89%);
+$clr-surface: hsl(0, 0%, 100%);
+$clr-neutral200: hsl(220, 15%, 55%);
+$clr-neutral300: hsl(218, 44%, 22%);
+
+body {
+  font-size: 15px;
+}

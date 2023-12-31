@@ -1,0 +1,48 @@
+@use "../global/config" as *;
+@use "../global/fa" as *;
+@use "../global/class" as *;
+
+main {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  background-color: $clr-bg;
+  padding: 2.8rem;
+  font-size: 15px;
+}
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: $clr-surface;
+  padding: 1.5rem;
+  border-radius: 18px;
+  text-align: center;
+  max-width: 320px;
+
+  article {
+    padding: 2.5rem 1rem;
+  }
+
+  img {
+    border-radius: 14px;
+  }
+
+  h1 {
+    line-height: 1.2;
+    margin-bottom: 1.9rem;
+  }
+
+  p {
+    opacity: 0.9;
+    width: 90%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
+}
